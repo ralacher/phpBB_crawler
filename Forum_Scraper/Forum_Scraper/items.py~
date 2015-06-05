@@ -1,6 +1,0 @@
-import scrapy
-
-class ForumScraperItem(scrapy.Item):
-    author = scrapy.Field()
-    wordCount = scrapy.Field()
-    postSubject = scrapy.Field()
